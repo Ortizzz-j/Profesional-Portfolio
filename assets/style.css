@@ -1,0 +1,278 @@
+/* links i used to get a reference and copied and repurposed
+https://css-tricks.com/css-link-hover-effects/
+https://www.w3schools.com/howto/howto_js_topnav.asp
+and also I got help from my tutor who helped me to understand flex box a little more, and helped me with the layout of the page.
+Photo byJackson Sophat on Unsplash
+  */
+
+  *{
+    background-color: whitesmoke;
+}
+
+header {
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 78px;
+    background-color: #dcf7e7;
+}
+
+h1{
+    font-family: helvetica, sans-serif, serif;
+    color: black;
+    display: flex;
+    height: 50px;
+    position: relative;
+    bottom: -2px;
+    right: -20px;
+    background-color: #dcf7e7;
+}
+
+.topnav{
+    display: flex;
+    align-items: center;
+    font-family: helvetica, sans-serif, serif;
+    margin: 1px;
+    background-color: #dcf7e7;
+}
+
+.topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: black;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    background-color: #dcf7e7;
+}
+
+.topnav a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+  }
+  
+li{
+    display: inline;
+}
+
+.headshot {
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    flex: 0 0 25%;
+    padding: 1rem;
+    font-size: 35px;
+    font-weight: bold;display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border-right: black solid 2px;
+}
+
+p {
+    padding-left: 48px;
+    font-size: 20px;
+    border: 3px solid black;
+    margin: 10px;
+    background-color: #dcf7e7;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+section .main-project{
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+figure .main-project{
+    display: flex;
+}
+
+.main-project figcaption{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    padding: 25px;
+    background: #dcf7e7;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 9px 10px 26px -5px rgba(0,0,0,0.64);
+}
+
+.main-project img{
+    min-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    max-height: 350px;
+    border: solid black 4px;
+}
+
+section .project{
+    flex: 0 0 50%;
+    position: relative;
+    margin: 20px 0;
+}
+
+.project figcaption{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 15px;
+    background: #00000050;
+    color: rgb(13, 217, 207);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project img{
+    width: 70%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root{
+    --bg-color: #94abbd;
+    --font-hover-color: #556e84;
+    --font-color: #f3f3f3;
+    --section-color: #e5926c;
+    --border: #362827;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: red dashed 1px;
+
+}
+
+header{
+    background-color: white;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-image: url();
+    height: 200px;
+    background-size: cover;
+    border-bottom: var(--border) 5px solid;
+
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    margin: 10px 25px;
+    justify-content: space-between;
+}
+
+
+section h2 {
+    display: flex;
+    padding-right: 1em;
+    border-right: #362827 3px solid;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+}
+
+nav {
+    align-self: flex-end;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    width: 275px;
+    height: 100px;
+    border: 2px solid;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+} */
