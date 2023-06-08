@@ -14,3 +14,7 @@ https://ortizzz-j.github.io/horiseon/
 Project 1 Group Project - Rhythmix:
 
 https://joepinoch.github.io/project-1/
+
+Project 2 Group Project - Shape Shifter:
+
+https://shape-shift.herokuapp.com/
