@@ -18,3 +18,7 @@ https://joepinoch.github.io/project-1/
 Project 2 Group Project - Shape Shifter:
 
 https://shape-shift.herokuapp.com/
+
+Project 3 Group Project - HOMEZ :
+
+https://homez-a7bb0a2adb47.herokuapp.com/
